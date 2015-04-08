@@ -1,6 +1,20 @@
-This is a docker image with:
+Radio astronomy IPython notebook docker container
+=================================================
 
-* Based on gijzelaerr/papino
+Usage:
+
+    $ docker run radioastro/notebook 
+
+
+Or build it yourself from the source folder:
+
+    $ make
+
+Notes:
+
 * Installs various radio astronimical software packages
 * Runs a ipython notebook on port 8888 
+* Mount your notebooks into /notebooks
+* Mount your data into /data
+
 
