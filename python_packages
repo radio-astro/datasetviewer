@@ -15,6 +15,7 @@ bokeh
 ggplot
 plotly
 prettyplotlib
-psycopg2
 astroML
 jsonschema
+terminado
+filemagic
