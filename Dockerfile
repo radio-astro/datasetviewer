@@ -37,6 +37,8 @@ EXPOSE 8888
 VOLUME /notebooks
 VOLUME /data
 
+ADD notebooks /notebooks
+
 
 ## Run ipython notebook
 CMD /usr/bin/python /usr/local/bin/ipython notebook --ip=* --no-browser --notebook-dir=/notebooks
